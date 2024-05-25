@@ -1,0 +1,114 @@
+body {
+    background-color: #eaf2e3;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+
+header {
+    background-color: #b44c48;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+
+    img {
+        display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+        margin: 0 auto; /* Centrar las imágenes horizontalmente */
+        max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+        border: 3px solid #4874c5; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+        border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+        align-items: center;}
+
+p {
+        color: #000000; /* Letras negras */
+        text-align: center;
+        background-color: #70c6db; /* Fondo azul oscuro */
+    }
+
+
+    nav {
+        background-color: #b38915;
+        padding: 10px;
+        }
+        nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        }
+        nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+        text-align: center;
+        }
+        nav ul li a {
+        color: #0f0f0f;
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        }
+        nav ul li a:hover {
+        background-color: #21d4cb;
+        }
+
+section {
+    background-color: #bb5a00;
+    padding: 20px; /* espaciado para la sección de 20 pixeles */}
+        .galeria {
+            text-align: center;
+        }
+
+        .galeria h1 {
+            margin-bottom: 20px;
+        }
+
+        .galeria .images {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10px; /* Espacio entre las imágenes */
+        }
+
+
+        .galeria .images img {
+            max-width: 80%;
+            height: auto;
+            display: block;
+        }
+  
+    .pie {  margin-top: 10px; /* Espacio superior del párrafo */
+            color: black; /* Color del texto */
+            padding: 10px; /* Relleno alrededor del texto */
+            width: 20%; /* Asegura que el párrafo tome el ancho completo del contenedor */
+            text-align: end;
+            height: auto;
+        }
+
+    footer {
+    background-color: #b44c48; /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0; }
+    div.social {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        flex: content;
+        align-items: flex-end;
+    }
+    a {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        background-color: #9986dd;
+    }
+    .footer-content {
+        background-color: #b38915;
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; 
+}
+
+
+    
